@@ -1,5 +1,4 @@
 FROM ubuntu:22.04
-RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 
 RUN apt-get update &&  apt-get install -y  curl  git  bash  vim  sudo  gnupg  software-properties-common
 
